@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "clerk-nuxt-quickstart",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@clerk/nuxt": "^0.0.1",
-    "nuxt": "^3.14.159",
+    "@clerk/nuxt": "^0.0.4",
+    "nuxt": "^3.14.1592",
     "vue": "^3.5.13",
     "vue-router": "^4.4.5"
   }
