@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <header>
@@ -10,6 +9,7 @@
         <UserButton />
       </SignedIn>
     </header>
+
     <main>
         <NuxtPage />
     </main>

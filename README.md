@@ -29,9 +29,13 @@
 
 Clerk is a developer-first authentication and user management solution. It provides pre-built Nuxt components and composables for sign-in, sign-up, user profile, and organization management. Clerk is designed to be easy to use and customize, and can be dropped into any Nuxt application.
 
-After following the quickstart you'll have learned how to:
+After following the quickstart, you'll have learned how to:
 
-- TBD
+- Install `@clerk/nuxt`
+- Set your Clerk API keys
+- Configure `nuxt.config.ts`
+- Create a header with Clerk components
+- Protect your API routes
 
 ## Deploy
 
@@ -59,12 +63,12 @@ To run the example locally, you need to:
 
 ## Learn more
 
-To learn more about Clerk and nuxt, check out the following resources:
+To learn more about Clerk and Nuxt, check out the following resources:
 
-- [Quickstart: Get started with nuxt and Clerk](https://clerk.com/docs/quickstarts/nuxt?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-nuxt-quickstart)
+- [Quickstart: Get started with Nuxt and Clerk](https://clerk.com/docs/quickstarts/nuxt?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-nuxt-quickstart)
 
 - [Clerk Documentation](https://clerk.com/docs?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-nuxt-quickstart)
-- [nuxt Documentation](https://nuxtjs.org)
+- [Nuxt Documentation](https://nuxt.com/docs/getting-started/introduction)
 
 ## Found an issue or want to leave feedback
 
