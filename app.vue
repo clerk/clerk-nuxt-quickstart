@@ -3,7 +3,7 @@
 <template>
     <header>
       <SignedOut>
-        <SignInButton />
+        <SignInButton mode="modal" />
       </SignedOut>
       <SignedIn>
         <UserButton />
