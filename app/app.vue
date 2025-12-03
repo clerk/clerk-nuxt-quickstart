@@ -1,16 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// Components are automatically imported
+</script>
 
 <template>
-    <header>
-      <SignedOut>
-        <SignInButton mode="modal" />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-    </header>
+  <header>
+    <SignedOut>
+      <SignInButton />
+    </SignedOut>
+    <SignedIn>
+      <UserButton />
+    </SignedIn>
+  </header>
 
-    <main>
-        <NuxtPage />
-    </main>
+  <main>
+    <NuxtPage />
+  </main>
 </template>
