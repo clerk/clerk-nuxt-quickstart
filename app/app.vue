@@ -4,12 +4,12 @@
 
 <template>
   <header>
-    <SignedOut>
+    <Show when="signed-out">
       <SignInButton />
-    </SignedOut>
-    <SignedIn>
+    </Show>
+    <Show when="signed-in">
       <UserButton />
-    </SignedIn>
+    </Show>
   </header>
 
   <main>
