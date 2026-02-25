@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@clerk/nuxt": "^2.0.0-canary.v20260114204908",
+    "@clerk/nuxt": "^2.0.0-canary.v20260225214826",
     "nuxt": "^4.2.2",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
