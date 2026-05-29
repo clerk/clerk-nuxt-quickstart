@@ -169,6 +169,18 @@ packages:
     resolution: {integrity: sha512-hHA0Q+l2/CzEYTj0VAtMOSTOIhL2kM15SI8Xhmv+Hfgjwi5qEZFNRewD1ZqJ5KvdGUu/zUOX8S/2gCZsnab0FA==}
     engines: {node: '>=20.9.0'}
 
+  '@clerk/shared@4.12.0':
+    resolution: {integrity: sha512-LEe3lpi1r2DhFH9FuqzVrDQ2UkQJ3TA6XkkqnfHHRBfAJdh+jnYXYiivQpj3znMCihm3FVLOMXcpSqBz80XoQg==}
+    engines: {node: '>=20.9.0'}
+    peerDependencies:
+      react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+      react-dom: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
   '@clerk/shared@4.8.2':
     resolution: {integrity: sha512-kBFDNeLdiNZkOHavTkOB00NMuqsmOGgVtDlzCS0/yivxsCUZXk3AT6+UsTfeSBGV7QD80YxjeFMNSrpqnSv4Gg==}
     engines: {node: '>=20.9.0'}
@@ -181,8 +193,8 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/vue@2.0.15':
-    resolution: {integrity: sha512-Gr9d3BUYmVVeepDp3HbG3FCaLSCSa9z5/8HmXef1VYehCKdbWHupriD98MEE474Se2bmVcDQY26NwPNkfqH3Fw==}
+  '@clerk/vue@2.2.4':
+    resolution: {integrity: sha512-wWh+1UtNUQ0thjupYQ3V8Mzqv39uiZbolcpDTmSMCWvcBUU3VRa/5rRzLTySllp3+rOCjM6SRRQHquf+2quCIg==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       vue: ^3.2.0
@@ -1202,6 +1214,9 @@ packages:
 
   '@stablelib/base64@1.0.1':
     resolution: {integrity: sha512-1bnPQqSxSuc3Ii6MhBysoWCg58j97aUjuCSZrGSmDxNqtytIi0k8utUenAwTZN4V5mXXYGsVUI9zeBqy+jBOSQ==}
+
+  '@tanstack/query-core@5.100.10':
+    resolution: {integrity: sha512-8UR0yJR+GiQ40m3lPhUr0xbfAupe6GSQiksSBSa9SM2NjezFyxXCIA69/lz8cSoNKZLrw1/PktIyQBJcVeMi3w==}
 
   '@tanstack/query-core@5.90.16':
     resolution: {integrity: sha512-MvtWckSVufs/ja463/K4PyJeqT+HMlJWtw6PrCpywznd2NSgO3m4KwO9RqbFqGg6iDE8vVMFWMeQI4Io3eEYww==}
@@ -3565,7 +3580,7 @@ snapshots:
     dependencies:
       '@clerk/backend': 3.2.12
       '@clerk/shared': 4.8.2
-      '@clerk/vue': 2.0.15(vue@3.5.29)
+      '@clerk/vue': 2.2.4(vue@3.5.29)
       '@nuxt/kit': 4.3.1(magicast@0.5.2)
       '@nuxt/schema': 4.3.1
       h3: 1.15.11
@@ -3575,6 +3590,14 @@ snapshots:
       - react-dom
       - vue
 
+  '@clerk/shared@4.12.0':
+    dependencies:
+      '@tanstack/query-core': 5.100.10
+      dequal: 2.0.3
+      glob-to-regexp: 0.4.1
+      js-cookie: 3.0.5
+      std-env: 3.10.0
+
   '@clerk/shared@4.8.2':
     dependencies:
       '@tanstack/query-core': 5.90.16
@@ -3583,9 +3606,9 @@ snapshots:
       js-cookie: 3.0.5
       std-env: 3.10.0
 
-  '@clerk/vue@2.0.15(vue@3.5.29)':
+  '@clerk/vue@2.2.4(vue@3.5.29)':
     dependencies:
-      '@clerk/shared': 4.8.2
+      '@clerk/shared': 4.12.0
       vue: 3.5.29
     transitivePeerDependencies:
       - react
@@ -4461,6 +4484,8 @@ snapshots:
   '@speed-highlight/core@1.2.14': {}
 
   '@stablelib/base64@1.0.1': {}
+
+  '@tanstack/query-core@5.100.10': {}
 
   '@tanstack/query-core@5.90.16': {}
 
