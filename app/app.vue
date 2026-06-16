@@ -8,6 +8,7 @@
       <SignInButton />
     </SignedOut>
     <SignedIn>
+      <NuxtLink to="/protected">Protected</NuxtLink>
       <UserButton />
     </SignedIn>
   </header>
