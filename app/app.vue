@@ -4,13 +4,13 @@
 
 <template>
   <header>
-    <SignedOut>
+    <Show when="signed-out">
       <SignInButton />
-    </SignedOut>
-    <SignedIn>
+    </Show>
+    <Show when="signed-in">
       <NuxtLink to="/protected">Protected</NuxtLink>
       <UserButton />
-    </SignedIn>
+    </Show>
   </header>
 
   <main>
